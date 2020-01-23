@@ -1,5 +1,5 @@
 {
-  "name": "express-gateway-jaeger-plugin",
+  "name": "express-gateway-plugin-jaeger-policy",
   "version": "1.0.0",
   "description": "jaeger plugin for express gateway",
   "main": "manifext.js",
