@@ -2,7 +2,7 @@ var jaeger = require('./jaeger')
 const tracer = jaeger("anuvaad-gateway");
 
 module.exports = {
-    name: 'jaeger-policy',
+    name: 'express-gateway-jaeger-policy',
     policy: (actionParams) => {
         return (req, res, next) => {
             var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
