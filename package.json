@@ -1,0 +1,22 @@
+{
+  "name": "express-gateway-jaeger-plugin",
+  "version": "1.0.0",
+  "description": "jaeger plugin for express gateway",
+  "main": "manifext.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aroopghoshtarento/express-gateway-jaeger-plugin.git"
+  },
+  "author": "aroop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aroopghoshtarento/express-gateway-jaeger-plugin/issues"
+  },
+  "homepage": "https://github.com/aroopghoshtarento/express-gateway-jaeger-plugin#readme",
+  "dependencies": {
+    "jaeger-client": "^3.17.1"
+  }
+}
